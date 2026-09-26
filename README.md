@@ -1,3 +1,12 @@
+<p align="center">
+    <a href="https://github.com/LOLBAS-Project/LOLBAS/actions/workflows/yaml-linting.yml/badge.svg?branch=master">
+        <img src="https://img.shields.io/github/actions/workflow/status/LOLBAS-Project/LOLBAS/yaml-linting.yml?branch=master" /></a>
+    <a href="https://github.com/LOLBAS-Project/LOLBAS">
+        <img src="https://lolbas-project.github.io/assets/lolbas-count.svg" /></a>
+    <a href="https://github.com/LOLBAS-Project/LOLBAS/stargazers">
+        <img src="https://img.shields.io/github/stars/LOLBAS-Project/LOLBAS?style=social" /></a>
+</p>
+
 # Living Off The Land Binaries and Scripts (and now also Libraries)
 
 <img src="https://github.com/api0cradle/LOLBAS/raw/master/Logo/LOLBAS.png" height="250">
@@ -38,6 +47,8 @@ Interesting functionality can include:
 * Log evasion/modification
 * DLL side-loading/hijacking without being relocated elsewhere in the filesystem.
 
+We do not approve binaries that allows for netntlm coercing, since most Windows binaries allows for that. Only exception is binaries that allows that on other than default ports (such as rpcping) or can allow direct credential theft. 
+
 ## Contributing
 
 If you have found a new LOLBin or LOLScript that you would like to contribute, please review the contributing guidelines located here: https://github.com/LOLBAS-Project/LOLBAS/blob/master/CONTRIBUTING.md
@@ -62,6 +73,18 @@ Common hashtags for these files are:
 Our primary maintainer (@oddvarmoe) of this project did a talk at DerbyCon 2018 called: #Lolbins Nothing to LOL about! - https://www.youtube.com/watch?v=NiYTdmZ8GR4
 This talk goes over the history of this project. 
 
+## Maintainers
+
+The following folks help maintain the LOLBAS Project on their personal time:
+
+* Oddvar Moe ([@oddvarmoe](https://twitter.com/Oddvarmoe))
+* Jimmy Bayne ([@bohops](https://twitter.com/bohops))
+* Conor Richard ([@xenosCR](https://twitter.com/xenosCR))
+* Chris 'Lopi' Spehn ([@ConsciousHacker](https://twitter.com/ConsciousHacker))
+* Liam ([@liamsomerville](https://twitter.com/liamsomerville))
+* Wietze ([@Wietze](https://twitter.com/@Wietze))
+* Jose Hernandez ([@_josehelps](https://twitter.com/_josehelps))
+
 ## Thanks
 
 As with many open-source projects, this one is the product of a community and we would like to thank ours:
@@ -69,3 +92,7 @@ As with many open-source projects, this one is the product of a community and we
 * The domain http://lolbins.com has been registered by an unknown individual and redirected it to the old version of this project.
 * The domain http://lolbas-project.com has been registered by Jimmy (@bohops).
 * The logos for the project were created by Adam Nadrowski (@_sup_mane). We #@&!!@#! love them.
+
+## Notice
+
+* Please refer to NOTICE.md for license information
